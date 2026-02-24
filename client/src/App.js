@@ -29,7 +29,7 @@ function App() {
 
     if (!token) return; 
 
-    fetch("http://localhost:5000/students", {
+    fetch("https://student-manager-backend-ev5m.onrender.com/students", {
       headers: { authorization: token },
     })
       .then((res) => res.json())
@@ -47,7 +47,7 @@ function App() {
   const addStudent = (student) => {
     const token = localStorage.getItem("token");
 
-    fetch("http://localhost:5000/students", {
+    fetch("https://student-manager-backend-ev5m.onrender.com/students", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -67,7 +67,7 @@ function App() {
   const deleteStudent = (id) => {
     const token = localStorage.getItem("token");
 
-    fetch(`http://localhost:5000/students/${id}`, {
+    fetch(`https://student-manager-backend-ev5m.onrender.com/students/${id}`, {
       method: "DELETE",
       headers: { authorization: token },
     }).then(() => {

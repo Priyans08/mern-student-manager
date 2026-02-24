@@ -5,7 +5,7 @@ function Register() {
   const [password, setPassword] = useState("");
 
   const handleRegister = () => {
-    fetch("http://localhost:5000/register", {
+    fetch("https://student-manager-backend-ev5m.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

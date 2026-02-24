@@ -7,7 +7,7 @@ function Login() {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    fetch("http://localhost:5000/login", {
+    fetch("https://student-manager-backend-ev5m.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
