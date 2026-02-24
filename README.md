@@ -102,13 +102,13 @@ Built as part of MERN stack learning and portfolio preparation.
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](screenshots/Login.png)
+![Login](screenshots/login.png)
 
 ### 📝 Register Page
-![Register](screenshots/Register.png)
+![Register](screenshots/register.png)
 
 ### 📊 Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### 🔎 Search & Sort
-![Search](screenshots/Search.png)
+![Search](screenshots/search.png)
