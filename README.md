@@ -2,6 +2,11 @@
 
 A full-stack MERN application with authentication and user-specific student management.
 
+## 🌐 Live Demo
+
+Frontend: https://mern-student-manager.vercel.app  
+Backend API: https://student-manager-backend-ev5m.onrender.coms
+
 ## 🚀 Features
 
 - User Registration & Login (JWT authentication)
@@ -93,3 +98,17 @@ http://localhost:5000
 ## 👨‍💻 Author
 
 Built as part of MERN stack learning and portfolio preparation.
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/Login.png)
+
+### 📝 Register Page
+![Register](screenshots/Register.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### 🔎 Search & Sort
+![Search](screenshots/Search.png)
