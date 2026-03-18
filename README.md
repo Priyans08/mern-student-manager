@@ -9,7 +9,7 @@ Backend API: https://student-manager-backend-ev5m.onrender.coms
 
 ## 🚀 Features
 
-- User Registration & Login (JWT authentication)
+- User Registration and Login (JWT authentication)
 - Protected Dashboard
 - Add and Delete Students
 - User-specific data (each user sees only their students)
